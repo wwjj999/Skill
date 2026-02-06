@@ -4,9 +4,6 @@
 
 <div id="english-content"></div>
 
----
-
-<div id="chinese-content"></div>
 
 ## 中文说明
 这是你项目的中文介绍。
@@ -860,6 +857,11 @@ includes a "Party Mode" for multi-agent collaboration.
 > By using Agents-MD Pro v7.5, developers gain a **secure, standardized,
 > and high-quality** AI collaboration environment, ensuring professional
 > results from prototype to production.
+
+---
+
+<div id="chinese-content"></div>
+
 
 
 
