@@ -1128,8 +1128,11 @@ BMad 是一种 AI 驱动的敏捷开发框架，具备 21+ 专业代理、50+ �
 
 [![Star History Chart](https://api.star-history.com/svg?repos=wangjianjq/Skill&type=timeline&legend=top-left)](https://www.star-history.com/#wangjianjq/Skill&type=timeline&legend=top-left)
 
+![Alt](https://repobeats.axiom.co/api/embed/2e645b851a1b534e8e63625edfcf443b8d54e9d2.svg "Repobeats analytics image")
+
 ### 下载
 
 - **[点击下载 Skill.zip](https://github.com/wangjianjq/Skill/releases/download/Skill-LIB/Skill.zip)**
 
 [⬆ 返回顶部](#top)
+
