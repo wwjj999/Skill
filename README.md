@@ -32,7 +32,7 @@ This is the English description of your project.
 - [📂 Directory Structure](#📂-directory-structure)
 - [📂 项目目录结构](#📂-项目目录结构)
   - [Detailed Structure](#project-structure)
-  - [详细结构](#项目结构)
+  - [详细结构](#目录树)
 
 - [Core Mechanisms & Features](#core-mechanisms--features)
 - [核心机制与功能](#核心机制与功能)
@@ -95,8 +95,8 @@ This is the English description of your project.
 - [Star History](#star-history)
 - [Star 历史](#star-history)
 
-- [Download](#📥-download)
-- [下载](#📥-下载)
+- [Download](#download)
+- [下载](#下载)
 
 ---
 
