@@ -16,7 +16,7 @@ This is the English description of your project.
 
 ---
 
-## 📑 Table of Contents / 目录
+##  Table of Contents / 目录
 
 - [English Version](#english-version)
 - [中文版](#中文版)
@@ -29,43 +29,43 @@ This is the English description of your project.
 - [⭐ Project Highlights](#⭐-project-highlights)
 - [⭐ 项目亮点](#⭐-项目亮点)
 
-- [📂 Directory Structure](#📂-directory-structure)
-- [📂 项目目录结构](#📂-项目目录结构)
+- [ Directory Structure](#-directory-structure)
+- [ 项目目录结构](#-项目目录结构)
   - [Detailed Structure](#project-structure)
   - [详细结构](#目录树)
 
 - [Core Mechanisms & Features](#core-mechanisms--features)
 - [核心机制与功能](#核心机制与功能)
-  - [🔍 Passive Context Architecture](#🔍-passive-context-architecture)
-  - [🔍 被动上下文架构](#🔍-被动上下文架构)
-  - [🤖 Hybrid Intelligence & Skills Ecosystem](#🤖-hybrid-intelligence--skills-ecosystem)
-  - [🤖 混合智能与 Skills 生态](#🤖-混合智能与-skills-生态-hybrid-intelligence)
-  - [🧠 Dynamic Context Injection Protocol (DCIP)](#🧠-dynamic-context-injection-protocol-dcip)
-  - [🧠 动态上下文注入协议 (DCIP)](#🧠-动态上下文注入协议-dcip)
-  - [🔧 Maintenance Tools](#🔧-maintenance-tools)
-  - [🔧 维护工具](#🔧-维护工具)
-  - [🛡️ Memory Guardian](#🛡️-memory-guardian-system-resource-protection)
-  - [🛡️ 内存守护](#🛡️-内存守护-memory-guardian系统资源保护)
-  - [📐 Regulatory Development Constraints](#📐-regulatory-development-constraints)
-  - [📐 规则化开发约束](#📐-规则化开发约束)
-  - [🛡️ Two-Land Doctrine](#🛡️-two-land-doctrine-territory-based-access-control)
-  - [🛡️ 双域安全法则](#🛡️-双域安全法则领地式访问控制)
-  - [⚠️ Red Button Rule](#⚠️-red-button-rule-safety-overrides)
-  - [⚠️ 危险动作警告法则](#⚠️-危险动作警告法则安全覆盖)
-  - [📋 Development Workflow](#📋-lightweight-development-workflow)
-  - [📋 开发工作流](#📋-轻量级开发工作流)
-  - [🤝 User Persona](#🤝-personalized-user-interview)
-  - [🤝 开发者画像](#🤝-个性化用户访谈)
-  - [🧪 Full-Stack Polyglot QA & Testing](#🧪-full-stack-polyglot-qa--testing)
-  - [🧪 全栈多语言 QA 与测试支持](#🧪-全栈多语言-qa-与测试支持)
-  - [🎨 Professional UI/UX Design Standards](#🎨-professional-uiux-design-standards)
-  - [🎨 专业级 UI/UX 设计标准](#🎨-专业级-uiux-设计标准)
-  - [🌍 Automated i18n Protocol](#🌍-automated-i18n-protocol)
-  - [🌍 自动化国际化(i18n)协议](#🌍-自动化国际化i18n协议)
-  - [🏗️ Architectural Governance](#🏗️-architectural-governance)
-  - [🏗️ 架构治理](#🏗️-架构治理)
-  - [📝 Structured Debugging Standards](#📝-structured-debugging-standards)
-  - [📝 结构化调试规范](#📝-结构化调试规范)
+  - [ Passive Context Architecture](#-passive-context-architecture)
+  - [ 被动上下文架构](#-被动上下文架构)
+  - [ Hybrid Intelligence & Skills Ecosystem](#-hybrid-intelligence--skills-ecosystem)
+  - [ 混合智能与 Skills 生态](#-混合智能与-skills-生态-hybrid-intelligence)
+  - [ Dynamic Context Injection Protocol (DCIP)](#-dynamic-context-injection-protocol-dcip)
+  - [ 动态上下文注入协议 (DCIP)](#-动态上下文注入协议-dcip)
+  - [ Maintenance Tools](#-maintenance-tools)
+  - [ 维护工具](#-维护工具)
+  - [️ Memory Guardian](#️-memory-guardian-system-resource-protection)
+  - [️ 内存守护](#️-内存守护-memory-guardian系统资源保护)
+  - [ Regulatory Development Constraints](#-regulatory-development-constraints)
+  - [ 规则化开发约束](#-规则化开发约束)
+  - [️ Two-Land Doctrine](#️-two-land-doctrine-territory-based-access-control)
+  - [️ 双域安全法则](#️-双域安全法则领地式访问控制)
+  - [️ Red Button Rule](#️-red-button-rule-safety-overrides)
+  - [️ 危险动作警告法则](#️-危险动作警告法则安全覆盖)
+  - [ Development Workflow](#-lightweight-development-workflow)
+  - [ 开发工作流](#-轻量级开发工作流)
+  - [ User Persona](#-personalized-user-interview)
+  - [ 开发者画像](#-个性化用户访谈)
+  - [ Full-Stack Polyglot QA & Testing](#-full-stack-polyglot-qa--testing)
+  - [ 全栈多语言 QA 与测试支持](#-全栈多语言-qa-与测试支持)
+  - [ Professional UI/UX Design Standards](#-professional-uiux-design-standards)
+  - [ 专业级 UI/UX 设计标准](#-专业级-uiux-设计标准)
+  - [ Automated i18n Protocol](#-automated-i18n-protocol)
+  - [ 自动化国际化(i18n)协议](#-自动化国际化i18n协议)
+  - [️ Architectural Governance](#️-architectural-governance)
+  - [️ 架构治理](#️-架构治理)
+  - [ Structured Debugging Standards](#-structured-debugging-standards)
+  - [ 结构化调试规范](#-结构化调试规范)
 
 - [Supported Tech Stack](#supported-tech-stack)
 - [支持的技术栈](#支持的技术栈)
@@ -138,7 +138,7 @@ saves substantial rework time and Token consumption.
 
 ---
 
-## 📂 Directory Structure
+##  Directory Structure
 
 A clear overview of the project's file organization:
 
@@ -190,14 +190,14 @@ A clear overview of the project's file organization:
 
 ## Core Mechanisms & Features
 
-### 🔍 Passive Context Architecture
+###  Passive Context Architecture
 
 The system automatically indexes the project root using a
 **high-density compressed tag system** (`AGENTS_INDEX.yaml`),
 optimizing the "Long Context Window" for maximum retrieval accuracy
 while minimizing token usage.
 
-### 🤖 Hybrid Intelligence & Skills Ecosystem
+###  Hybrid Intelligence & Skills Ecosystem
 
 **"Local Precision + AI Reasoning" — The best of both worlds.**
 
@@ -218,7 +218,7 @@ built-in and user-defined Skills to function across any AI environment.
   You can easily add your own custom Skills to the ecosystem by
   creating new folders in `.agent/skills/`.
 
-#### 🧰 Built-in Skills Matrix
+####  Built-in Skills Matrix
 
 This project includes **16 Skills** in two categories:
 
@@ -247,7 +247,7 @@ AI reads documentation, auto-constructs commands, and intelligently handles miss
 
 View full Skills list: [`.agent/skills/index.md`](./.agent/skills/index.md)
 
-#### ⚙️ Local Tool Prerequisites
+#### ️ Local Tool Prerequisites
 
 To unlock the **Zero Token Cost** local execution, ensure these
 standard tools are installed:
@@ -258,7 +258,7 @@ standard tools are installed:
 > **Note**: Without these tools, the system gracefully degrades to AI simulation
 > (consuming tokens).
 
-### 🧠 Dynamic Context Injection Protocol (DCIP)
+###  Dynamic Context Injection Protocol (DCIP)
 
 > **"The External Hippocampus" for AI**
 
@@ -274,7 +274,7 @@ Experimentally solving the "Lost in the Middle" and "Split-Brain" issues in long
 
 **Usage**: Run `python make_prompt.py "Your Question"` -> Paste to AI.
 
-### 🔧 Maintenance Tools
+###  Maintenance Tools
 
 #### Project Status Generator (`context/auto_status.py`)
 
@@ -317,7 +317,7 @@ python make_prompt.py "Your question here"
 
 > **Note**: Gemini CLI users don't need `make_prompt.py` as context is loaded automatically via `AGENTS.md`.
 
-### 🛡️ Memory Guardian (System Resource Protection)
+### ️ Memory Guardian (System Resource Protection)
 
 > **Prevent AI Development Tools from Exhausting System Memory**
 
@@ -345,13 +345,13 @@ python .agent/skills/memory-guardian/scripts/cleanup.py
 
 ![Memory Guardian Stress Test](./docs/images/memory_guardian_stress_test_en.png)
 
-### 📐 Regulatory Development Constraints
+###  Regulatory Development Constraints
 
 Includes **Official Stable Specifications** for major programming
 languages and frameworks. Pre-verified rules for popular third-party
 tools enable seamless, best-practice development.
 
-### 🛡️ Two-Land Doctrine (Territory-Based Access Control)
+### ️ Two-Land Doctrine (Territory-Based Access Control)
 
 | Territory | Rights | Description |
 |:---|:---|:---|
@@ -359,7 +359,7 @@ tools enable seamless, best-practice development.
 | 🟢 **User Land** | Read-Write | All user project files. AI has full authority |
 | 🧪 **Sandbox Domain** | Read-Write | Evolution zone for new protocols pending ratification |
 
-### ⚠️ Red Button Rule (Safety Overrides)
+### ️ Red Button Rule (Safety Overrides)
 
 Actively intercepts high-risk commands (e.g., `rm -rf /`) with a strict
 verification process:
@@ -370,7 +370,7 @@ verification process:
 
 > Any deviation immediately terminates the operation.
 
-### 📋 Lightweight Development Workflow
+###  Lightweight Development Workflow
 
 All AI-assisted development follows this **5-Step Process**
 (defined in `PROJECT_GOVERNANCE.md`):
@@ -383,7 +383,7 @@ Step 4 → Self-Testing (logic validation + test cases)
 Step 5 → Documentation Update (CHANGELOG.md required)
 ```
 
-### 🤝 Personalized User Interview
+###  Personalized User Interview
 
 First-time users undergo a **3-Phase Handshake Interview** to establish
 their developer persona:
@@ -397,7 +397,7 @@ their developer persona:
 Results are stored in `USER_PROFILE.md` for tailored AI assistance
 throughout the project lifecycle.
 
-### 🧪 Full-Stack Polyglot QA & Testing
+###  Full-Stack Polyglot QA & Testing
 
 Covers **Python, Node.js, Go, C++, Java, Mobile**, and 11+ other stacks with:
 
@@ -405,7 +405,7 @@ Covers **Python, Node.js, Go, C++, Java, Mobile**, and 11+ other stacks with:
 - Automated unit/integration test prompts
 - Structured logging mandates (raw `print()` forbidden in production)
 
-### 🎨 Professional UI/UX Design Standards
+###  Professional UI/UX Design Standards
 
 Integrated **"Design Gate"** protocol enforcing modern aesthetics:
 
@@ -415,13 +415,13 @@ Integrated **"Design Gate"** protocol enforcing modern aesthetics:
 - 4px grid spacing system
 - Dark mode strategy (CSS Variables)
 
-### 🌍 Automated i18n Protocol
+###  Automated i18n Protocol
 
 Mandates maintenance of `PROJECT_LANGUAGES.md`. The system automatically
 guides multi-language adaptation, ensuring features and content are
 ready for global deployment.
 
-### 🏗️ Architectural Governance
+### ️ Architectural Governance
 
 Enforces structural rigor through `SKILL_ARCHITECT` protocol:
 
@@ -430,7 +430,7 @@ Enforces structural rigor through `SKILL_ARCHITECT` protocol:
 - **Technical Debt Tracking**: No "God Objects"; bounded contexts required
 - **Design Pattern Toolkit**: Factory, Strategy, Observer, Adapter recommendations
 
-### 📝 Structured Debugging Standards
+###  Structured Debugging Standards
 
 | Rule | Enforcement |
 |:---|:---|
@@ -582,7 +582,7 @@ the AI to read the `AGENTS.md` file first.
 This project includes adapters for the following mainstream AI coding tools.
 Each tool will **automatically load** its corresponding config file when opening the project:
 
-### 🖥️ AI IDEs / Editors
+### ️ AI IDEs / Editors
 
 | Tool | Config File | Status |
 |:---|:---|:---|
@@ -595,7 +595,7 @@ Each tool will **automatically load** its corresponding config file when opening
 | **Augment Code** | `.augment-guidelines` | ✅ Supported |
 | **Zed AI** | `.zed/ai.md` | ✅ Supported |
 
-### 💻 CLI Tools
+###  CLI Tools
 
 | Tool | Config File | Status |
 |:---|:---|:---|
@@ -659,7 +659,7 @@ includes a "Party Mode" for multi-agent collaboration.
 
 ---
 
-### 📥 Download
+###  Download
 
 - **[Download Skill.zip](https://github.com/wangjianjq/Skill/releases/download/Skill-LIB/Skill.zip)**
 
@@ -711,7 +711,7 @@ includes a "Party Mode" for multi-agent collaboration.
 
 ---
 
-## 📂 项目目录结构
+##  项目目录结构
 
 ### 目录树
 
@@ -774,12 +774,12 @@ Agents-MD-Pro/
 
 ## 核心机制与功能
 
-### 🔍 被动上下文架构
+###  被动上下文架构
 
 系统使用**高密度压缩标签体系**（`AGENTS_INDEX.yaml`）自动索引项目根目录，
 优化"长上下文窗口"以实现最高召回精度，同时尽量最小化 Token 消耗。
 
-### 🤖 混合智能与 Skills 生态 (Hybrid Intelligence)
+###  混合智能与 Skills 生态 (Hybrid Intelligence)
 
 **"本地精准 + AI 推理" — 融合两极优势的最佳实践。**
 
@@ -800,7 +800,7 @@ Agents-MD-Pro/
   您只需在 `.agent/skills/` 中创建新文件夹，
   即可轻松添加自定义 Skill。
 
-#### 🧰 内置 Skills 矩阵
+####  内置 Skills 矩阵
 
 本项目包含 **16 个 Skills**，分为两种类型：
 
@@ -829,7 +829,7 @@ AI 读取文档后自动构建命令并执行，遇到缺失依赖时智能询�
 
 查看完整 Skills 列表：[`.agent/skills/index.md`](./.agent/skills/index.md)
 
-#### ⚙️ 本地工具先决条件 (Pre-requisites)
+#### ️ 本地工具先决条件 (Pre-requisites)
 
 为了解锁 **零 Token 成本** 的极速体验，请确保安装以下标准工具：
 
@@ -838,7 +838,7 @@ AI 读取文档后自动构建命令并执行，遇到缺失依赖时智能询�
 
 > **注意**：若未检测到本地工具，系统将自动降级使用 AI 模拟执行（会消耗 Token）。
 
-### 🛡️ 内存守护 Memory Guardian（系统资源保护）
+### ️ 内存守护 Memory Guardian（系统资源保护）
 
 > **防止 AI 开发工具耗尽系统内存**
 
@@ -866,7 +866,7 @@ python .agent/skills/memory-guardian/scripts/cleanup.py
 
 ![内存守护压力测试](./docs/images/memory_guardian_stress_test.png)
 
-### 🧠 动态上下文注入协议 (DCIP)
+###  动态上下文注入协议 (DCIP)
 
 > **为 AI 装上“外挂海马体”**
 
@@ -882,7 +882,7 @@ python .agent/skills/memory-guardian/scripts/cleanup.py
 
 **用法**: 运行 `python make_prompt.py "你的问题"` -> 粘贴给 AI。
 
-### 🔧 维护工具
+###  维护工具
 
 #### 项目状态生成器 (`context/auto_status.py`)
 
@@ -925,12 +925,12 @@ python make_prompt.py "你的问题"
 
 > **注意**：Gemini CLI 用户无需使用 `make_prompt.py`，上下文通过 `AGENTS.md` 自动加载。
 
-### 📐 规则化开发约束
+###  规则化开发约束
 
 内置主流开发语言与框架的**官方最新稳定版规范**，
 并预置经过验证的第三方框架规则，使开发者能够无缝遵循行业最佳实践。
 
-### 🛡️ 双域安全法则（领地式访问控制）
+### ️ 双域安全法则（领地式访问控制）
 
 | 领地 | 权限 | 描述 |
 |:---|:---|:---|
@@ -938,7 +938,7 @@ python make_prompt.py "你的问题"
 | 🟢 **用户域** | 读写 | 所有用户项目文件，AI 拥有完全权限 |
 | 🧪 **沙盒域** | 读写 | 新协议的进化区域，待用户批准后合并 |
 
-### ⚠️ 危险动作警告法则（安全覆盖）
+### ️ 危险动作警告法则（安全覆盖）
 
 系统主动拦截高风险指令（如 `rm -rf /`），执行严格确认流程：
 
@@ -948,7 +948,7 @@ python make_prompt.py "你的问题"
 
 > 任何偏差将立即终止操作。
 
-### 📋 轻量级开发工作流
+###  轻量级开发工作流
 
 所有 AI 辅助开发遵循此**五步流程**（定义于 `PROJECT_GOVERNANCE.md`）：
 
@@ -960,7 +960,7 @@ python make_prompt.py "你的问题"
 第5步 → 文档更新（CHANGELOG.md 必填）
 ```
 
-### 🤝 个性化用户访谈
+###  个性化用户访谈
 
 首次使用时，AI 将进行**三阶段握手访谈**以建立您的开发者画像：
 
@@ -972,7 +972,7 @@ python make_prompt.py "你的问题"
 
 结果存储于 `USER_PROFILE.md`，在整个项目周期为您提供定制化 AI 服务。
 
-### 🧪 全栈多语言 QA 与测试支持
+###  全栈多语言 QA 与测试支持
 
 覆盖 **Python、Node.js、Go、C++、Java、移动端**等 11+ 技术栈：
 
@@ -980,7 +980,7 @@ python make_prompt.py "你的问题"
 - 自动化单元/集成测试提醒
 - 结构化日志强制规范（生产代码禁用 `print()`）
 
-### 🎨 专业级 UI/UX 设计标准
+###  专业级 UI/UX 设计标准
 
 内置**"设计闸门"**协议，强制应用现代审美：
 
@@ -990,12 +990,12 @@ python make_prompt.py "你的问题"
 - 4px 网格间距系统
 - 暗色模式策略（CSS 变量）
 
-### 🌍 自动化国际化（i18n）协议
+###  自动化国际化（i18n）协议
 
 强制维护 `PROJECT_LANGUAGES.md` 文件。
 系统自动引导多语言适配，确保功能与内容支持全球化部署。
 
-### 🏗️ 架构治理
+### ️ 架构治理
 
 通过 `SKILL_ARCHITECT` 协议强制结构严谨性：
 
@@ -1004,7 +1004,7 @@ python make_prompt.py "你的问题"
 - **技术债务跟踪**：禁止"上帝对象"，要求明确的边界上下文
 - **设计模式工具箱**：工厂、策略、观察者、适配器建议
 
-### 📝 结构化调试规范
+###  结构化调试规范
 
 | 规则 | 执行 |
 |:---|:---|
@@ -1145,7 +1145,7 @@ AI 将自动读取 `AGENTS.md` 并加载约束规则。
 
 本项目已适配以下主流 AI 编程工具，各工具打开项目时会**自动加载**对应配置文件：
 
-### 🖥️ AI IDE / 编辑器
+### ️ AI IDE / 编辑器
 
 | 工具 | 配置文件 | 状态 |
 |:---|:---|:---|
@@ -1158,7 +1158,7 @@ AI 将自动读取 `AGENTS.md` 并加载约束规则。
 | **Augment Code** | `.augment-guidelines` | ✅ 已适配 |
 | **Zed AI** | `.zed/ai.md` | ✅ 已适配 |
 
-### 💻 CLI 工具
+###  CLI 工具
 
 | 工具 | 配置文件 | 状态 |
 |:---|:---|:---|
@@ -1222,7 +1222,7 @@ BMad 是一种 AI 驱动的敏捷开发框架，具备 21+ 专业代理、50+ �
 
 [![Star History Chart](https://api.star-history.com/svg?repos=wangjianjq/Skill&type=timeline&legend=top-left)](https://www.star-history.com/#wangjianjq/Skill&type=timeline&legend=top-left)
 
-### 📥 下载
+###  下载
 
 - **[点击下载 Skill.zip](https://github.com/wangjianjq/Skill/releases/download/Skill-LIB/Skill.zip)**
 
