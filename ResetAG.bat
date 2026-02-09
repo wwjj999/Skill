@@ -79,9 +79,13 @@ echo.
 echo ========================================================
 echo [SUCCESS] Project state reset.
 echo.
-echo [ACTION REQUIRED] Please copy and paste the following to the AI:
+echo [NEXT STEP] To re-initialize the project, run:
+echo     setup.bat
 echo.
-echo "Protocol Reset. Read AGENTS.md to re-initialize."
+echo Or manually edit PROJECT_STATUS.md to set your governance mode.
+echo.
+echo [INFO] After initialization, you can start working with the AI.
 echo ========================================================
 echo.
 pause
+

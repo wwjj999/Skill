@@ -18,18 +18,21 @@ This is the English description of your project.
 
 ## 📑 Table of Contents / 目录
 
+- [English Version](#english-version)
+- [中文版](#中文版)
+
 - [Overview](#overview)
 - [概述](#概述)
+  - [⭐ Core Value Proposition](#⭐-core-value-proposition)
+  - [⭐ 核心价值主张](#⭐-核心价值主张)
 
 - [⭐ Project Highlights](#⭐-project-highlights)
 - [⭐ 项目亮点](#⭐-项目亮点)
 
 - [📂 Directory Structure](#📂-directory-structure)
-- [项目结构](#项目结构)
-  - [Directory Tree](#directory-tree)
-  - [目录树](#目录树)
-  - [File Categories](#file-categories)
-  - [文件分类](#文件分类)
+- [📂 项目目录结构](#📂-项目目录结构)
+  - [Detailed Structure](#project-structure)
+  - [详细结构](#项目结构)
 
 - [Core Mechanisms & Features](#core-mechanisms--features)
 - [核心机制与功能](#核心机制与功能)
@@ -64,13 +67,6 @@ This is the English description of your project.
   - [📝 Structured Debugging Standards](#📝-structured-debugging-standards)
   - [📝 结构化调试规范](#📝-结构化调试规范)
 
-- [Project Structure](#project-structure)
-- [项目结构](#项目结构-1)
-  - [Directory Tree](#directory-tree-1)
-  - [目录树](#目录树-1)
-  - [File Categories](#file-categories-1)
-  - [文件分类](#文件分类-1)
-
 - [Supported Tech Stack](#supported-tech-stack)
 - [支持的技术栈](#支持的技术栈)
 
@@ -91,6 +87,16 @@ This is the English description of your project.
 
 - [Extension Reading](#extension-reading)
 - [延伸阅读](#延伸阅读)
+  - [About BMad-Method](#about-bmad-method)
+  - [关于 BMad-Method](#关于-bmad-method)
+  - [About Vercel's Passive Context](#about-vercels-passive-context)
+  - [关于 Vercel Research 的被动上下文](#关于-vercel-research-的被动上下文)
+
+- [Star History](#star-history)
+- [Star 历史](#star-history)
+
+- [Download](#📥-download)
+- [下载](#📥-下载)
 
 ---
 
@@ -142,15 +148,42 @@ A clear overview of the project's file organization:
 │   ├── skills/              # 17+ Skill scripts (Python/Node.js)
 │   └── workflows/           # 43+ Automated workflow definitions
 ├── .agents/                 # Read-only protocol definitions
+├── .claude/                 # Claude AI configuration
 ├── bmad/                    # BMAD framework core files
 ├── docs/                    # Documentation and assets
 │   └── images/              # Screenshots and media
+├── context/                 # Auto-generated project context
+│   ├── auto_status.py       # Project status generator
+│   └── memory.md            # Persistent memory storage
 ├── AGENTS.md                # [CORE] Main Agent Protocol & Boot Sequence
 ├── AGENTS_INDEX.yaml        # [CORE] High-density Knowledge Index
 ├── GEMINI.md                # Gemini CLI specific protocol
+├── CLAUDE.md                # Claude Code CLI adapter
 ├── PROJECT_GOVERNANCE.md    # Project governance rules
+├── PROJECT_STATUS.md        # Current project governance state
+├── USER_PROFILE.md          # User persona & preferences
 ├── PROJECT_LANGUAGES.md     # Language settings
-└── README.md                # Project README
+├── CONVENTIONS.md           # Project-specific code conventions
+├── CHANGELOG.md             # Auto-maintained change log
+├── PRINCIPLES.DM            # Design principles document
+├── CALL_CHAIN_ANALYSIS.md   # Call chain analysis
+├── PROJECT_FILES_ANALYSIS.md # Project files analysis
+├── TOKEN_AUDIT.DM           # Token usage audit
+├── LLMS.txt                 # LLM configuration
+├── README.md                # Project README
+├── README.txt               # English documentation
+├── README_zh-CN.txt         # Chinese documentation
+├── make_prompt.py           # Context builder for AI
+├── find_today_changes.py    # Find today's changes
+├── scan_project_files.py    # Project files scanner
+├── scan_results.txt         # Scan results
+├── .antigravityignore       # Antigravity ignore rules
+├── .aider.conf.yml          # Aider configuration
+├── .aiderignore             # Aider ignore rules
+├── .augment-guidelines      # Augment guidelines
+├── .clinerules              # Cline rules
+├── .cursorrules             # Cursor rules
+└── .windsurfrules           # Windsurf rules
 ```
 
 ---
@@ -678,7 +711,7 @@ includes a "Party Mode" for multi-agent collaboration.
 
 ---
 
-## 项目结构
+## 📂 项目目录结构
 
 ### 目录树
 
@@ -692,9 +725,14 @@ Agents-MD-Pro/
 ├── 📄 PROJECT_LANGUAGES.md   # 国际化语言白名单
 ├── 📄 CONVENTIONS.md         # 项目专用代码公约
 ├── 📄 CHANGELOG.md           # 自动维护的变更日志
+├── 📄 PRINCIPLES.DM          # 设计原则文档
+├── 📄 CALL_CHAIN_ANALYSIS.md # 调用链分析
+├── 📄 PROJECT_FILES_ANALYSIS.md # 项目文件分析
+├── 📄 TOKEN_AUDIT.DM         # Token 使用审计
+├── 📄 LLMS.txt               # LLM 配置
+├── 📄 README.md              # 项目说明文档
 ├── 📄 README.txt             # 英文文档
 ├── 📄 README_zh-CN.txt       # 中文文档
-├── 📄 replit.md              # Replit 环境特定配置
 │
 ├── 🤖 CLAUDE.md              # Claude Code CLI 适配器
 ├── 🤖 GEMINI.md              # Gemini CLI 适配器
@@ -704,16 +742,25 @@ Agents-MD-Pro/
 ├── 🤖 .clinerules            # Cline (VS Code) 适配器
 ├── 🤖 .augment-guidelines    # Augment Code 适配器
 ├── 🤖 .aider.conf.yml        # Aider CLI 配置
+├── 🤖 .aiderignore           # Aider 忽略规则
+├── 🤖 .antigravityignore     # Antigravity 忽略规则
 │
+├── 🔧 make_prompt.py         # AI 上下文构建器
+├── 🔧 find_today_changes.py  # 查找今日变更
+├── 🔧 scan_project_files.py  # 项目文件扫描器
+├── 🔧 scan_results.txt       # 扫描结果
 ├── 🔧 setup.bat / setup.sh   # 环境引导
-├── 🔧 ResetAG.bat / .sh      # 协议重置工具 (清空状态)
+├── 🔧 ResetAG.bat / .sh      # 协议重置工具（清空状态）
 │
 ├── 📁 context/               # 🧠 动态上下文（记忆 + 状态，用于 DCIP）
+│   ├── auto_status.py        # 项目状态生成器
+│   └── memory.md             # 持久化记忆存储
 ├── 📁 .agents/               # 🔴 协议域（核心规则 - 只读）
 ├── 📁 .agent/                # 🟠 工作流定义与技能脚本
 │   ├── 📁 skills/            # 17+ 技能脚本 (Python/Node.js)
 │   └── 📁 workflows/         # 43+ 自动化工作流定义
-├── 📁 .gemini/               # 🧠 Agent 大脑与记忆 (禁止删除)
+├── 📁 .claude/               # 🧩 Claude AI 配置
+├── 📁 .gemini/               # 🧠 Agent 大脑与记忆（禁止删除）
 ├── 📁 .github/               # 🐙 GitHub Copilot 适配器
 ├── 📁 .idea/                 # 🧩 JetBrains AI 适配器
 ├── 📁 .zed/                  # 🧩 Zed AI 适配器
