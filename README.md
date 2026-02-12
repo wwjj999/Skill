@@ -110,9 +110,7 @@ This is the English description of your project.
 
 ## Overview
 
-This document is written in Markdown format but maintained as a TXT
-file to prevent AI from mistaking it for the main boot file (built-in
-rules constrain this, but AI can be forced to read it).
+This document is for human reading only; AI reading will be automatically redirected to: AGENTS.md
 
 Agents-MD Pro v8.0 is a **Boundary Constraint Framework** for
 AI-assisted software development. It systematically mitigates the
@@ -652,7 +650,7 @@ includes a "Party Mode" for multi-agent collaboration.
 
 ## 概述
 
-本文以markdown格式书写，但保持TXT格式，以防AI误读为主引导文件（内置规则已约束但可强制AI读取）。
+本文仅供人类阅读，AI阅读将自动引导到：AGENTS.md
 本项目是一套面向 AI 辅助开发的**边界约束框架**，
 旨在系统性缓解大语言模型（LLM）在代码生成中常见的"幻觉"问题。
 通过严密的协议体系，将 AI 行为限制在可控、可预测的范围内，
