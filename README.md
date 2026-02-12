@@ -1145,13 +1145,14 @@ BMad 是一种 AI 驱动的敏捷开发框架，具备 21+ 专业代理、50+ �
 > 通过 Agents-MD Pro v8.0，开发者可获得一个**安全、规范、高质量**的
 > AI 协同编码环境，显著提升从原型到交付的全程可控性与专业度。
 
-## 🌟 Stars History
-![wangjianjq/Skill Stars History](https://ossinsight.io/api/prompts/28395/render?repo=wangjianjq/Skill)
+## 🌟 Skill 仓库星标趋势
+![wangjianjq/Skill 星标趋势](https://ossinsight.io/api/v1/repos/wangjianjq/Skill/stats/star-trend?type=line&width=800&height=400&color=%234F94CD&bg_color=%23FFFFFF)
 
 ### 下载
 
 - **[点击下载 Skill.zip](https://github.com/wangjianjq/Skill/releases/download/Skill-LIB/Skill.zip)**
 
 [⬆ 返回顶部](#top)
+
 
 
