@@ -408,6 +408,55 @@ If a file named `PROJECT_GOVERNANCE.md` exists in the project root, you MUST tre
 3. **Governance Autoload**  
    Upon every turn, after loading `.agents/*` rules, AI MUST load and obey: `PROJECT_GOVERNANCE.md` (if present).
 
+4. **Operation Mode Constraints Override AI Heuristics, Optimizations, and Default Behaviors**
+
+   AI MUST prioritize the active operation mode over:
+
+   - Internal optimization strategies
+   - Best-practice refactoring suggestions
+   - Structural improvements not explicitly requested
+   - Default model tendencies toward comprehensive changes
+
+---
+
+### 🧠 AI Support Files (Root-Level)
+
+AI MUST treat the following root-level files as authoritative guidance
+for development behavior:
+
+- AI_MODE.md — Active operation mode
+- AI_OPERATION.md — Coding behavior rules
+- AI_CONTEXT.md — Project semantic context
+- AI_COST_POLICY.md — Token and resource constraints
+
+If present, these files MUST be consulted before performing development actions in User Land.
+
+---
+
+### ⚙️ Operation Mode Enforcement
+
+Before performing ANY development action in User Land,
+AI MUST:
+
+1. Locate and read `AI_MODE.md` in the project root
+2. Determine the active operation mode
+3. Conform all actions to that mode's constraints
+
+If `AI_MODE.md` is missing:
+
+- Default to CONSERVATIVE mode
+- Do NOT assume aggressive behavior
+
+This rule applies to ALL development activities, including:
+
+- Creating, modifying, refactoring, or deleting code
+- Generating new modules or files
+- Proposing structural changes
+- Producing implementation patches
+
+This rule governs all User Land actions and does not apply to Protocol Land.
+
+
 ## 🔧 Protocol Maintenance Mode
 
 > **Purpose**: Provide a legitimate channel to fix bugs in Protocol Land files.

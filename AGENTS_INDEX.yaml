@@ -17,6 +17,23 @@ registry:
       path: "sandbox/"
       description: "AI protocol drafting area and proposal zone"
 
+  governance:
+    - { name: "Project Governance", path: "PROJECT_GOVERNANCE.md" }
+    - { name: "AI Mode", path: "AI_MODE.md" }
+    - { name: "AI Operation", path: "AI_OPERATION.md" }
+    - { name: "AI Context", path: "AI_CONTEXT.md" }
+    - { name: "AI Cost Policy", path: "AI_COST_POLICY.md" }
+
+  tools:
+    - { name: "Gemini CLI", path: "GEMINI.md" }
+    - { name: "Claude Code", path: "CLAUDE.md" }
+    - { name: "Qwen Code", path: "QWEN.md" }
+    - { name: "Replit", path: "replit.md" }
+
+  principles:
+    - { name: "Design Principles", path: "PRINCIPLES.DM" }
+    - { name: "Token Audit", path: "TOKEN_AUDIT.DM" }
+
 
   languages:
     - { name: "ArkTS", path: ".agents/lang/LANG_ARKTS.md", tags: ["harmonyos", "arkts"] }

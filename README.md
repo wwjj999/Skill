@@ -393,7 +393,13 @@ Agents-MD-Pro/
 ├── 📄 [CALL_CHAIN_ANALYSIS.md](./CALL_CHAIN_ANALYSIS.md) # Context System Architecture
 ├── 📄 [TOKEN_AUDIT.DM](./TOKEN_AUDIT.DM)         # Token Audit
 ├── 📄 [AI_RULES_INJECTION.txt](./AI_RULES_INJECTION.txt) # AI Rules Injection
+├── 📄 [AI_MODE.md](./AI_MODE.md)             # AI Operation Mode
+├── 📄 [AI_OPERATION.md](./AI_OPERATION.md)   # AI Coding Behavior Rules
+├── 📄 [AI_CONTEXT.md](./AI_CONTEXT.md)       # Project Architecture Context
+├── 📄 [AI_COST_POLICY.md](./AI_COST_POLICY.md) # Token & Cost Policy
 ├── 📄 [README.md](./README.md)              # Project documentation (this file)
+├── 📄 [package.json](./package.json)         # Project Metadata
+├── 🤖 [replit.md](./replit.md)              # Replit Adapter
 ├── 📄 [requirements.txt](./requirements.txt)       # Python dependencies list
 ├── 📄 [.gitignore](./.gitignore)             # Git ignore rules
 ├── 📄 [.roomodes](./.roomodes)              # Roo Code modes definition
@@ -445,6 +451,9 @@ Agents-MD-Pro/
 | **Core Scripts** | `scripts/` | Shared configuration, utilities, and YAML parsers |
 | **Agent Memory** | `.gemini/` | Critical agent state storage. **Delete = Agent Amnesia** |
 | **Framework** | `.agents/` | Core definition files for languages, frameworks, and skills |
+| **AI Rules** | `AI_MODE.md`, `AI_OPERATION.md` | Core AI behavior constraints & operation modes |
+| **AI Context** | `AI_CONTEXT.md`, `AI_COST_POLICY.md` | Architecture context & token usage rules |
+| **Replit** | `replit.md` | Adapter for Replit environment |
 
 ---
 
@@ -535,6 +544,7 @@ Each tool will **automatically load** its corresponding config file when opening
 | **Cline (VS Code)** | `.clinerules` | ✅ Supported |
 | **Augment Code** | `.augment-guidelines` | ✅ Supported |
 | **Zed AI** | `.zed/ai.md` | ✅ Supported |
+| **Replit** | `replit.md` | ✅ Supported |
 
 ### CLI Tools
 
@@ -676,7 +686,13 @@ Agents-MD-Pro/
 ├── 📄 [CALL_CHAIN_ANALYSIS.md](./CALL_CHAIN_ANALYSIS.md) # 上下文系统架构分析
 ├── 📄 [TOKEN_AUDIT.DM](./TOKEN_AUDIT.DM)         # Token 使用审计
 ├── 📄 [AI_RULES_INJECTION.txt](./AI_RULES_INJECTION.txt) # AI 规则注入
+├── 📄 [AI_MODE.md](./AI_MODE.md)             # AI 运行模式
+├── 📄 [AI_OPERATION.md](./AI_OPERATION.md)   # AI 编码行为准则
+├── 📄 [AI_CONTEXT.md](./AI_CONTEXT.md)       # 项目架构上下文
+├── 📄 [AI_COST_POLICY.md](./AI_COST_POLICY.md) # Token 与成本策略
 ├── 📄 [README.md](./README.md)              # 项目说明文档
+├── 📄 [package.json](./package.json)         # 项目元数据
+├── 🤖 [replit.md](./replit.md)              # Replit 适配器
 ├── 📄 [requirements.txt](./requirements.txt)       # Python 依赖清单
 ├── 📄 [.gitignore](./.gitignore)             # Git 忽略规则
 ├── 📄 [.roomodes](./.roomodes)              # Roo Code 模式定义
@@ -937,10 +953,6 @@ python .agents/skills/memory-guardian/scripts/cleanup.py
 | **国际化配置** | `PROJECT_LANGUAGES.md` | 定义全球化开发支持的语言列表 |
 | **代码规范** | `CONVENTIONS.md` | 本项目专用的代码风格与模式公约 |
 | **文档** | `README.md` | 项目说明文档（面向人类，AI 应读取 AGENTS.md） |
-| **Sync rules** | |
-| 1. **Sync all README files**: `README.md` must be updated
-| 2. **Semantic consistency**: Chinese and English descriptions must match exactly
-| 3. **Audit date**: File must have "Last Audited" date
 | **变更日志** | `CHANGELOG.md` | AI 自动维护的双语变更记录 |
 | **CLI 适配器** | `CLAUDE.md`, `GEMINI.md`, `QWEN.md` | 各 CLI 工具的自动上下文加载文件 |
 | **IDE 适配器** | `.cursorrules`, `.windsurfrules` 等 | 各 IDE/编辑器的自动上下文加载文件 |
@@ -948,6 +960,9 @@ python .agents/skills/memory-guardian/scripts/cleanup.py
 | **重置工具** | `ResetAG.bat` / `ResetAG.sh` | 清除状态文件 (`.ag_env_verified`) 以重新初始化 |
 | **Agent 记忆** | `.gemini/` | 关键的 Agent 状态存储。**删除 = Agent 失忆** |
 | **框架核心** | `.agents/` | 语言、框架和技能的核心定义文件 |
+| **AI 规则** | `AI_MODE.md`, `AI_OPERATION.md` | AI 行为约束与运行模式定义 |
+| **AI 上下文** | `AI_CONTEXT.md`, `AI_COST_POLICY.md` | 架构上下文与 Token 使用策略 |
+| **Replit** | `replit.md` | Replit 环境适配器 |
 
 ---
 
@@ -1034,6 +1049,7 @@ python .agents/skills/memory-guardian/scripts/cleanup.py
 | **Cline (VS Code)** | `.clinerules` | ✅ 已适配 |
 | **Augment Code** | `.augment-guidelines` | ✅ 已适配 |
 | **Zed AI** | `.zed/ai.md` | ✅ 已适配 |
+| **Replit** | `replit.md` | ✅ 已适配 |
 
 ### CLI 工具
 
