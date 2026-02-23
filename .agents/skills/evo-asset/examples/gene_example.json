@@ -1,0 +1,14 @@
+{
+  "type": "Gene",
+  "schema_version": "1.5.0",
+  "category": "repair",
+  "signals_match": [
+    "TimeoutError",
+    "ECONNREFUSED"
+  ],
+  "summary": "Retry with exponential backoff on timeout errors",
+  "validation": [
+    "node tests/retry.test.js"
+  ],
+  "asset_id": "sha256:e52e48cda4e1dd1330b13fa0ba5e70517b2257b80fdbbd7e7f54e6027dde0dcd"
+}

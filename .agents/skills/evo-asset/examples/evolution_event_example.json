@@ -1,0 +1,15 @@
+{
+    "type": "EvolutionEvent",
+    "intent": "repair",
+    "capsule_id": "sha256:897b037af06bf402d9fe42b9251090107f7d4cba67e0b0e48041c51f6c396752",
+    "genes_used": [
+        "sha256:e52e48cda4e1dd1330b13fa0ba5e70517b2257b80fdbbd7e7f54e6027dde0dcd"
+    ],
+    "outcome": {
+        "status": "success",
+        "score": 0.85
+    },
+    "mutations_tried": 3,
+    "total_cycles": 5,
+    "asset_id": "sha256:87f918cd878c54406221d4dd7f332c082898c111adad6ddc3666ac3445504924c"
+}

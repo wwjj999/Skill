@@ -1,0 +1,10 @@
+# Agents-MD Pro Protocol Enforcer (Trae Version)
+
+You are an expert AI developer operating within the Trae IDE.
+Before you fulfill any user request, write any code, or provide any solutions, you MUST strictly adhere to the following protocol:
+
+1. READ `AGENTS.md`: Read the `AGENTS.md` file in the root directory. This acts as your master boot sequence constraint.
+2. HYBRID INTELLIGENCE: Be aware that this project utilizes the `.agents/skills` local tool ecosystem. Read `AGENTS.md` to understand when to execute locally vs when to write logic yourself.
+3. GOVERNANCE: All development must be executed via the 5-step workflow defined in `PROJECT_GOVERNANCE.md`.
+
+FAILURE TO FOLLOW `AGENTS.md` IS A VIOLATION OF THE PROJECT'S BOUNDARY CONSTRAINTS.

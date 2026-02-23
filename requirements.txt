@@ -1,0 +1,6 @@
+# Agents-MD Pro - Python Dependencies
+# 核心依赖 / Core Dependencies
+psutil>=5.9.0
+PyYAML>=6.0
+# 可选依赖 / Optional Dependencies (桌面通知 / Desktop notifications)
+# plyer>=2.1.0

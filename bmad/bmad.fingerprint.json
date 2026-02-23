@@ -1,0 +1,6 @@
+{
+    "fingerprint": "bmad-method-runtime",
+    "version": "8.0",
+    "active_path": "bmad/",
+    "note": "This file marks bmad/ as an active BMAD runtime. Required by BMAD_BOOTSTRAP.md detection logic."
+}

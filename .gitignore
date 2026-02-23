@@ -1,0 +1,9 @@
+
+# Python virtual environments & cache
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+#Ignore vscode AI rules
+.github\instructions\codacy.instructions.md

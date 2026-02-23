@@ -1,0 +1,25 @@
+{
+    "type": "Capsule",
+    "schema_version": "1.5.0",
+    "trigger": [
+        "TimeoutError",
+        "ECONNREFUSED"
+    ],
+    "gene": "sha256:e52e48cda4e1dd1330b13fa0ba5e70517b2257b80fdbbd7e7f54e6027dde0dcd",
+    "summary": "Fix API timeout with bounded retry and exponential backoff using connection pooling",
+    "confidence": 0.85,
+    "blast_radius": {
+        "files": 2,
+        "lines": 38
+    },
+    "outcome": {
+        "status": "success",
+        "score": 0.85
+    },
+    "success_streak": 3,
+    "env_fingerprint": {
+        "platform": "win32",
+        "arch": "x64"
+    },
+    "asset_id": "sha256:897b037af06bf402d9fe42b9251090107f7d4cba67e0b0e48041c51f6c396752"
+}
